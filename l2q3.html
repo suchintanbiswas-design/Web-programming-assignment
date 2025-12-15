@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>News Feed</title>
+  <link rel="stylesheet" href="newsfeed.css">
+  <style>
+    
+    .tag {
+      color: #006400; 
+    }
+
+  
+    #breaking-banner {
+      color: white;
+      background-color: red; 
+      padding: 12px;
+      font-weight: bold;
+      text-align: center;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div id="breaking-banner" style="background-color: yellow; color: black; font-size:20px;">
+    BREAKING NEWS: Major Announcement Today
+  </div>
+
+  <main class="container">
+    <section class="column breaking">
+      <h2>Breaking News</h2>
+      <article class="article">
+        <div class="bar"></div>
+        <h3><span class="tag" id="breaking-tag"> <span class="breaking">BREAKING</span> Nationwide Alert</span></h3>
+        <p class="lead">Important update about ongoing events. <a href="https://www.hindustantimes.com/sports/football/cinema-sachin-tendulkar-and-lionel-messi-s-iconic-meeting-wankhede-goes-crazy-as-two-sporting-parallels-intersect-101765719028741.html">Read more</a></p>
+      </article>
+    </section>
+
+    <section class="column trending">
+      <h2>Trending Articles</h2>
+
+      <article class="article">
+        <div class="bar"></div>
+        <h3><span class="tag">TRENDING</span> Viral Tech Topic</h3>
+        <p class="lead">People are talking about the new device release.</p>
+      </article>
+
+      <article class="article">
+        <div class="bar"></div>
+        <h3><span class="tag" style="color: yellow; background: black; padding:2px 6px;">HOT</span> Market Moves</h3>
+        <p class="lead">Stocks make sudden moves.</p>
+      </article>
+    </section>
+
+    <section class="column editors">
+      <h2>Editor's Picks</h2>
+
+      <article class="article">
+        <div class="bar"></div>
+        <h3><span class="tag">EDITORS</span> Longform Analysis</h3>
+        <p class="lead">Deep dive into policy changes and their effects.</p>
+      </article>
+
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+.card {
+  background-color: #cfe8ff; 
+  border: 2px solid #1e90ff;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 8px;
+  line-height: 1.5;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+  color: #222;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+
+.projects .card { border-left: 6px solid #4a90e2; }
+.faculty .card { border-left: 6px solid #8b5cf6; }
+.news .card { border-left: 6px solid #f59e0b; }
+
+.highlight {
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background-color: #ffefc7;
+}
+
+
+.card { padding: 16px; margin: 10px; }
+
+
+@media (min-width: 900px) {
+  main { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .projects, .faculty, .news { margin: 0; }
+}

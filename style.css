@@ -1,0 +1,27 @@
+/* External stylesheet (base rules) */
+body { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 0; color: #0f172a; background: #f8fafc; }
+.hero { background: linear-gradient(180deg,#0ea5e9,#3b82f6); color: white; padding: 40px 20px; text-align: center; }
+.hero h1 { font-size: 36px; margin: 0; }
+.tagline { margin: 8px 0 0 0; font-size: 16px; }
+
+/* Card component to show box model */
+.card {
+  background: white;
+  border: 1px solid #e6edf3;
+  padding: 18px;
+  margin: 18px auto;
+  border-radius: 10px;
+  max-width: 1000px;
+  box-shadow: 0 3px 8px rgba(2,6,23,0.04);
+  line-height: 1.6;
+}
+
+/* service cards inside services section */
+.cards { display: flex; gap: 12px; flex-wrap: wrap; justify-content: space-between; }
+.service { flex: 1 1 30%; min-width: 220px; }
+
+/* small utilities */
+.social { font-weight: 600; color: #475569; }
+
+/* footer */
+.footer { text-align: center; padding: 12px; font-size: 13px; }

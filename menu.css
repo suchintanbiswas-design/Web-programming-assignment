@@ -1,0 +1,43 @@
+/* External default menu look */
+body { font-family: "Segoe UI", Tahoma, Geneva, sans-serif; margin: 18px; }
+.menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+
+/* menu items as cards */
+.menu-item {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  padding: 14px;
+  margin: 8px;
+  border-radius: 12px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* veg/non-veg labels using span */
+.veg {
+  color: #15803d;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: #ecfccb;
+}
+
+.nonveg {
+  color: #b91c1c;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: #fee2e2;
+}
+
+/* spicy span style (external default) */
+.spicy {
+  color: #7f1d1d;
+  font-weight: 700;
+}
+
+/* rounded cards and box model */
+.menu-item { padding: 18px; margin: 12px; border-radius: 14px; }
+
+/* small hover effect */
+.menu-item:hover { transform: translateY(-3px); transition: transform .18s ease; }

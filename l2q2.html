@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Product Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <style>
+    /* Internal CSS — will override external where equal specificity */
+    /* Override one product's style (cascading challenge) */
+    #featured .product-card {
+      transform: scale(1.02);
+      border: 3px solid gold; /* internal override */
+    }
+  </style>
+</head>
+<body>
+  <header><h1 id="dashboard-title">Startup Products</h1></header>
+
+  <main id="grid">
+    <div id="featured" class="product-card">
+      <h2 class="name">UltraPhone X</h2>
+      <span class="discount">50% OFF</span>
+      <p class="desc">Flagship smartphone with excellent battery life.</p>
+      <span class="stock">In stock</span>
+    </div>
+
+    <div class="product-card" style="border-style: dashed;">
+      <h2 class="name">SoundBuds Pro</h2>
+      <span class="discount">30% OFF</span>
+      <p class="desc">Wireless earbuds with noise cancellation.</p>
+      <span class="low-stock">Only 3 left</span>
+    </div>
+
+    <div class="product-card">
+      <h2 class="name">FitBand 2</h2>
+      <span class="discount">10% OFF</span>
+      <p class="desc">Fitness tracker with heart-rate monitoring.</p>
+      <span class="stock">In stock</span>
+    </div>
+
+    <div class="product-card">
+      <h2 class="name">HomeCam</h2>
+      <span class="discount">20% OFF</span>
+      <p class="desc">Smart home security camera.</p>
+      <span class="stock">In stock</span>
+    </div>
+
+    <div class="product-card">
+      <h2 class="name">PowerBank 10000</h2>
+      <span class="discount">15% OFF</span>
+      <p class="desc">Compact portable charger.</p>
+      <span class="stock">In stock</span>
+    </div>
+
+    <div class="product-card">
+      <h2 class="name">SmartLamp</h2>
+      <span class="discount">40% OFF</span>
+      <p class="desc">App-controlled bedside lamp.</p>
+      <span class="stock">In stock</span>
+    </div>
+  </main>
+</body>
+</html>

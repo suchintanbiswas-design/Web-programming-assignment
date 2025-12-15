@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Restaurant Menu</title>
+  <link rel="stylesheet" href="menu.css">
+  <style>
+    
+    .spicy {
+      font-weight: bold;
+      color: #b91c1c;
+      text-decoration: underline;
+    }
+
+   
+    #chef-special {
+      box-shadow: 0 0 12px rgba(255,215,0,0.7);
+      border: 3px solid #f59e0b;
+      transform: translateY(-4px);
+    }
+  </style>
+</head>
+<body>
+  <header><h1>La Table — Menu</h1></header>
+
+  <main class="menu-grid">
+    <div class="menu-item" id="chef-special" style="border: 2px solid #ffd700;">
+      <h3 class="name">Butter Paneer <span class="veg">VEG</span></h3>
+      <p class="desc">Creamy paneer curry served with naan.</p>
+      <span class="spice">Medium <span class="spicy">SPICY</span></span>
+    </div>
+
+    <div class="menu-item">
+      <h3 class="name">Chicken Biryani <span class="nonveg">NON-VEG</span></h3>
+      <p class="desc">Hyderabadi style biryani with raita.</p>
+      <span class="spice">High <span class="spicy">SPICY</span></span>
+    </div>
+
+    <div class="menu-item">
+      <h3 class="name">Margherita Pizza <span class="veg">VEG</span></h3>
+      <p class="desc">Classic thin crust pizza with basil.</p>
+      <span class="spice">Low</span>
+    </div>
+
+    <div class="menu-item">
+      <h3 class="name">Paneer Tikka <span class="veg">VEG</span></h3>
+      <p class="desc">Smoky grilled paneer with spices.</p>
+      <span class="spice">Medium</span>
+    </div>
+  </main>
+</body>
+</html>
